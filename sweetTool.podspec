@@ -12,6 +12,4 @@ Pod::Spec.new do |s|
   s.source_files     = 'Extension/*.swift'
 
   s.frameworks = 'UIKit'
-  #s.libraries = 'z', 'c++', 'sqlite3.0'
-  #s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
 end
