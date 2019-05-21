@@ -13,7 +13,7 @@
 		E9D903E422942551003C2970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D903E322942551003C2970 /* Assets.xcassets */; };
 		E9D903E722942551003C2970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D903E522942551003C2970 /* LaunchScreen.storyboard */; };
 		E9D903F2229425D7003C2970 /* Foundation+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903EF229425D7003C2970 /* Foundation+EX.swift */; };
-		E9D903F3229425D7003C2970 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903F0229425D7003C2970 /* Tools.swift */; };
+		E9D903F3229425D7003C2970 /* SweetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903F0229425D7003C2970 /* SweetTool.swift */; };
 		E9D903F4229425D7003C2970 /* UIKit+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903F1229425D7003C2970 /* UIKit+EX.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		E9D903E622942551003C2970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D903E822942551003C2970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D903EF229425D7003C2970 /* Foundation+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+EX.swift"; sourceTree = "<group>"; };
-		E9D903F0229425D7003C2970 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		E9D903F0229425D7003C2970 /* SweetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTool.swift; sourceTree = "<group>"; };
 		E9D903F1229425D7003C2970 /* UIKit+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+EX.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D903EF229425D7003C2970 /* Foundation+EX.swift */,
-				E9D903F0229425D7003C2970 /* Tools.swift */,
+				E9D903F0229425D7003C2970 /* SweetTool.swift */,
 				E9D903F1229425D7003C2970 /* UIKit+EX.swift */,
 			);
 			path = Extension;
@@ -156,7 +156,7 @@
 				E9D903F4229425D7003C2970 /* UIKit+EX.swift in Sources */,
 				E9D903DD22942550003C2970 /* AppDelegate.swift in Sources */,
 				E9D903F2229425D7003C2970 /* Foundation+EX.swift in Sources */,
-				E9D903F3229425D7003C2970 /* Tools.swift in Sources */,
+				E9D903F3229425D7003C2970 /* SweetTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

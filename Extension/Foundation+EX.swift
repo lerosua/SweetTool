@@ -10,7 +10,7 @@ import UIKit
 
 extension NSDate{
     
-    func humanFormat() -> String {
+   public func humanFormat() -> String {
         
         if self.timeIntervalSinceNow > -60 {
             return "刚刚"

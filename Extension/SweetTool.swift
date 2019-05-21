@@ -8,8 +8,8 @@
 
 import UIKit
 
-class Tools: NSObject {
-    static func isIphoneX()->Bool {
+class SweetTool: NSObject {
+   public static func isIphoneX()->Bool {
         guard #available(iOS 11.0, *) else { return false }
         return UIApplication.shared.windows[0].safeAreaInsets != UIEdgeInsets.zero
     }
