@@ -41,7 +41,7 @@ extension NSDate{
 }
 
 extension String {
-    var isPhoneNumber: Bool {
+    public var isPhoneNumber: Bool {
         do {
             let detector = try NSDataDetector(types: NSTextCheckingResult.CheckingType.phoneNumber.rawValue)
             let matches = detector.matches(in: self, options: [], range: NSMakeRange(0, self.count))
