@@ -17,6 +17,13 @@ extension UIView {
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
 
+    /** Loads instance from nib with the nibName. */
+    public  func loadNib(nibName:String) -> UIView {
+        let bundle = Bundle(for: type(of: self))
+        let nib = UINib(nibName: nibName, bundle: bundle)
+        return nib.instantiate(withOwner: self, options: nil).first as! UIView
+    }
+    
    public func findViewController() -> UIViewController? {
         if let nextResponder = self.next as? UIViewController {
             return nextResponder
