@@ -1,5 +1,6 @@
 import PackageDescription
 
+// swift-tools-version: 5.9
 let package = Package(
     name: "SweetTool",
     platforms: [.iOS(.v14), .macOS(.v11)],
@@ -11,5 +12,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "SweetTool", dependencies: []),
-    ]
+    ],
+	 toolsVersion: "5.9"
 )
