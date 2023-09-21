@@ -1,3 +1,4 @@
 .build/
+.swiftpm
 sweetTool.xcodeproj/project.xcworkspace/xcuserdata/
 sweetTool.xcodeproj/xcuserdata/lerosua.xcuserdatad/
