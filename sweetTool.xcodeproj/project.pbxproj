@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1B3CE0F2ABCA03A0051DD56 /* SweetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */; };
+		C1B3CE112ABCA0640051DD56 /* UIColor+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */; };
+		C1B3CE132ABCA0EA0051DD56 /* UIView+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3CE122ABCA0EA0051DD56 /* UIView+ST.swift */; };
 		E9D903DD22942550003C2970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903DC22942550003C2970 /* AppDelegate.swift */; };
 		E9D903DF22942550003C2970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903DE22942550003C2970 /* ViewController.swift */; };
 		E9D903E222942550003C2970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D903E022942550003C2970 /* Main.storyboard */; };
@@ -14,10 +17,12 @@
 		E9D903E722942551003C2970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D903E522942551003C2970 /* LaunchScreen.storyboard */; };
 		E9D903F2229425D7003C2970 /* Foundation+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903EF229425D7003C2970 /* Foundation+EX.swift */; };
 		E9D903F3229425D7003C2970 /* SweetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903F0229425D7003C2970 /* SweetTool.swift */; };
-		E9D903F4229425D7003C2970 /* UIKit+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903F1229425D7003C2970 /* UIKit+EX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTool.swift; sourceTree = "<group>"; };
+		C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ST.swift"; sourceTree = "<group>"; };
+		C1B3CE122ABCA0EA0051DD56 /* UIView+ST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ST.swift"; sourceTree = "<group>"; };
 		E9D903D922942550003C2970 /* sweetTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweetTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D903DC22942550003C2970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D903DE22942550003C2970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +32,6 @@
 		E9D903E822942551003C2970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D903EF229425D7003C2970 /* Foundation+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+EX.swift"; sourceTree = "<group>"; };
 		E9D903F0229425D7003C2970 /* SweetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTool.swift; sourceTree = "<group>"; };
-		E9D903F1229425D7003C2970 /* UIKit+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+EX.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1B3CE0C2ABCA03A0051DD56 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3CE0D2ABCA03A0051DD56 /* SweetTool */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		C1B3CE0D2ABCA03A0051DD56 /* SweetTool */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */,
+				C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */,
+				C1B3CE122ABCA0EA0051DD56 /* UIView+ST.swift */,
+			);
+			path = SweetTool;
+			sourceTree = "<group>";
+		};
 		E9D903D022942550003C2970 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +88,7 @@
 				E9D903E322942551003C2970 /* Assets.xcassets */,
 				E9D903E522942551003C2970 /* LaunchScreen.storyboard */,
 				E9D903E822942551003C2970 /* Info.plist */,
+				C1B3CE0C2ABCA03A0051DD56 /* Sources */,
 				E9D903EE229425D7003C2970 /* Extension */,
 			);
 			path = sweetTool;
@@ -76,7 +99,6 @@
 			children = (
 				E9D903EF229425D7003C2970 /* Foundation+EX.swift */,
 				E9D903F0229425D7003C2970 /* SweetTool.swift */,
-				E9D903F1229425D7003C2970 /* UIKit+EX.swift */,
 			);
 			path = Extension;
 			sourceTree = SOURCE_ROOT;
@@ -153,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D903DF22942550003C2970 /* ViewController.swift in Sources */,
-				E9D903F4229425D7003C2970 /* UIKit+EX.swift in Sources */,
+				C1B3CE0F2ABCA03A0051DD56 /* SweetTool.swift in Sources */,
+				C1B3CE112ABCA0640051DD56 /* UIColor+ST.swift in Sources */,
 				E9D903DD22942550003C2970 /* AppDelegate.swift in Sources */,
+				C1B3CE132ABCA0EA0051DD56 /* UIView+ST.swift in Sources */,
 				E9D903F2229425D7003C2970 /* Foundation+EX.swift in Sources */,
 				E9D903F3229425D7003C2970 /* SweetTool.swift in Sources */,
 			);
