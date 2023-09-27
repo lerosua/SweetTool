@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     /** Loads instance from nib with the same name. */
-  public  func loadNib() -> UIView {
+  public  func st_loadNib() -> UIView {
         let bundle = Bundle(for: type(of: self))
         let nibName = type(of: self).description().components(separatedBy: ".").last!
         let nib = UINib(nibName: nibName, bundle: bundle)
@@ -18,7 +18,7 @@ extension UIView {
     }
 
     /** Loads instance from nib with the nibName. */
-    public  func loadNib(nibName:String) -> UIView {
+    public  func st_loadNib(nibName:String) -> UIView {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
@@ -32,6 +32,23 @@ extension UIView {
         } else {
             return nil
         }
+    }
+    
+    //设置底下两边的圆角
+    func setupBottomCorner(_ radius:CGFloat){
+        self.layer.cornerRadius = radius
+        self.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+    }
+    //设置顶上的两边圆角
+    func setupTopCorner(_ radius:CGFloat){
+        self.layer.cornerRadius = radius
+        self.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+    }
+    
+    //设置四个角都圆角
+    func setupCorner(_ radius:CGFloat){
+        self.layer.cornerRadius = radius
+        self.layer.masksToBounds = true
     }
 }
 
