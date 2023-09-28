@@ -8,7 +8,7 @@
 import UIKit
 let _STScreenWidth:CGFloat =  UIScreen.main.bounds.size.width
 
-extension UINavigationBar {
+public extension UINavigationBar {
     
     //设置navbar的纯色背景，删除底部的线
     func setupPureColor(color:UIColor){

@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIImage{
+public extension UIImage{
     
     //根据颜色和大小，生成一个纯色的image
     convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {

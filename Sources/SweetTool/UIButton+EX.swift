@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
     
     //获取一个圆形背景，使用imageName图标的按钮
     class func getCircleButton(imageName:String,bgColor:UIColor,width:CGFloat)->UIButton{

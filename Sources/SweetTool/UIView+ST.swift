@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     /** Loads instance from nib with the same name. */
   public  func st_loadNib() -> UIView {
         let bundle = Bundle(for: type(of: self))
