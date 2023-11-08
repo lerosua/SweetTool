@@ -25,7 +25,6 @@
 		E9D903E422942551003C2970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D903E322942551003C2970 /* Assets.xcassets */; };
 		E9D903E722942551003C2970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D903E522942551003C2970 /* LaunchScreen.storyboard */; };
 		E9D903F2229425D7003C2970 /* Foundation+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903EF229425D7003C2970 /* Foundation+EX.swift */; };
-		E9D903F3229425D7003C2970 /* SweetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D903F0229425D7003C2970 /* SweetTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +33,9 @@
 		C122ECEB2AC4F73D0041BD0D /* UIButton+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+EX.swift"; sourceTree = "<group>"; };
 		C122ECED2AC4F77C0041BD0D /* UIImage+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+EX.swift"; sourceTree = "<group>"; };
 		C122ECEF2AC4F7FA0041BD0D /* UINavigationBar+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+EX.swift"; sourceTree = "<group>"; };
-		C19409BE2AFB7F390056D89C /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C19409BE2AFB7F390056D89C /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "Foundation/Date+Extension.swift"; sourceTree = "<group>"; };
 		C19409C02AFB7F620056D89C /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		C19409C22AFB7F730056D89C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		C19409C22AFB7F730056D89C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "Foundation/String+Extensions.swift"; sourceTree = "<group>"; };
 		C19409C42AFB80030056D89C /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
 		C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTool.swift; sourceTree = "<group>"; };
 		C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ST.swift"; sourceTree = "<group>"; };
@@ -48,8 +47,7 @@
 		E9D903E322942551003C2970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D903E622942551003C2970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D903E822942551003C2970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D903EF229425D7003C2970 /* Foundation+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+EX.swift"; sourceTree = "<group>"; };
-		E9D903F0229425D7003C2970 /* SweetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTool.swift; sourceTree = "<group>"; };
+		E9D903EF229425D7003C2970 /* Foundation+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Foundation+EX.swift"; path = "Foundation/Foundation+EX.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,9 @@
 		C1B3CE0D2ABCA03A0051DD56 /* SweetTool */ = {
 			isa = PBXGroup;
 			children = (
-				E9D903EE229425D7003C2970 /* Foundation */,
+				C19409C22AFB7F730056D89C /* String+Extensions.swift */,
+				E9D903EF229425D7003C2970 /* Foundation+EX.swift */,
+				C19409BE2AFB7F390056D89C /* Date+Extension.swift */,
 				C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */,
 				C122ECEF2AC4F7FA0041BD0D /* UINavigationBar+EX.swift */,
 				C122ECEB2AC4F73D0041BD0D /* UIButton+EX.swift */,
@@ -118,18 +118,6 @@
 			);
 			path = sweetTool;
 			sourceTree = "<group>";
-		};
-		E9D903EE229425D7003C2970 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				C19409C22AFB7F730056D89C /* String+Extensions.swift */,
-				E9D903EF229425D7003C2970 /* Foundation+EX.swift */,
-				C19409BE2AFB7F390056D89C /* Date+Extension.swift */,
-				E9D903F0229425D7003C2970 /* SweetTool.swift */,
-			);
-			name = Foundation;
-			path = Sources/SweetTool/Foundation;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -216,7 +204,6 @@
 				C122ECEE2AC4F77C0041BD0D /* UIImage+EX.swift in Sources */,
 				E9D903F2229425D7003C2970 /* Foundation+EX.swift in Sources */,
 				C122ECF02AC4F7FA0041BD0D /* UINavigationBar+EX.swift in Sources */,
-				E9D903F3229425D7003C2970 /* SweetTool.swift in Sources */,
 				C19409C52AFB80030056D89C /* UITextView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
