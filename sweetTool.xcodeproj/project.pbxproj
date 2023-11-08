@@ -74,6 +74,7 @@
 		C1B3CE0D2ABCA03A0051DD56 /* SweetTool */ = {
 			isa = PBXGroup;
 			children = (
+				E9D903EE229425D7003C2970 /* Foundation */,
 				C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */,
 				C122ECEF2AC4F7FA0041BD0D /* UINavigationBar+EX.swift */,
 				C122ECEB2AC4F73D0041BD0D /* UIButton+EX.swift */,
@@ -114,12 +115,11 @@
 				E9D903E522942551003C2970 /* LaunchScreen.storyboard */,
 				E9D903E822942551003C2970 /* Info.plist */,
 				C1B3CE0C2ABCA03A0051DD56 /* Sources */,
-				E9D903EE229425D7003C2970 /* Extension */,
 			);
 			path = sweetTool;
 			sourceTree = "<group>";
 		};
-		E9D903EE229425D7003C2970 /* Extension */ = {
+		E9D903EE229425D7003C2970 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
 				C19409C22AFB7F730056D89C /* String+Extensions.swift */,
@@ -127,7 +127,8 @@
 				C19409BE2AFB7F390056D89C /* Date+Extension.swift */,
 				E9D903F0229425D7003C2970 /* SweetTool.swift */,
 			);
-			path = Extension;
+			name = Foundation;
+			path = Sources/SweetTool/Foundation;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
