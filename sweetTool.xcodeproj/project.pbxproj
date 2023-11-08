@@ -15,7 +15,6 @@
 		C143D72A2AFB864F001B2E20 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C143D7272AFB864F001B2E20 /* Date+Extension.swift */; };
 		C143D72B2AFB864F001B2E20 /* Foundation+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C143D7282AFB864F001B2E20 /* Foundation+EX.swift */; };
 		C143D72C2AFB864F001B2E20 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C143D7292AFB864F001B2E20 /* String+Extensions.swift */; };
-		C19409C12AFB7F620056D89C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19409C02AFB7F620056D89C /* UIView+Extensions.swift */; };
 		C19409C52AFB80030056D89C /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19409C42AFB80030056D89C /* UITextView+Extensions.swift */; };
 		C1B3CE0F2ABCA03A0051DD56 /* SweetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */; };
 		C1B3CE112ABCA0640051DD56 /* UIColor+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */; };
@@ -36,7 +35,6 @@
 		C143D7272AFB864F001B2E20 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		C143D7282AFB864F001B2E20 /* Foundation+EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+EX.swift"; sourceTree = "<group>"; };
 		C143D7292AFB864F001B2E20 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		C19409C02AFB7F620056D89C /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		C19409C42AFB80030056D89C /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
 		C1B3CE0E2ABCA03A0051DD56 /* SweetTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTool.swift; sourceTree = "<group>"; };
 		C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ST.swift"; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 				C1B3CE102ABCA0640051DD56 /* UIColor+ST.swift */,
 				C1B3CE122ABCA0EA0051DD56 /* UIView+ST.swift */,
 				C19409C42AFB80030056D89C /* UITextView+Extensions.swift */,
-				C19409C02AFB7F620056D89C /* UIView+Extensions.swift */,
 				C122ECDE2AC4521C0041BD0D /* UITableView+ST.swift */,
 				C122ECE02AC452600041BD0D /* UIImageVie+ST.swift */,
 			);
@@ -190,7 +187,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19409C12AFB7F620056D89C /* UIView+Extensions.swift in Sources */,
 				E9D903DF22942550003C2970 /* ViewController.swift in Sources */,
 				C143D72A2AFB864F001B2E20 /* Date+Extension.swift in Sources */,
 				C122ECE12AC452600041BD0D /* UIImageVie+ST.swift in Sources */,
