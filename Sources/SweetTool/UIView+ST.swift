@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIView {
     /** Loads instance from nib with the same name. */
-  public  func st_loadNib() -> UIView {
+    func st_loadNib() -> UIView {
         let bundle = Bundle(for: type(of: self))
         let nibName = type(of: self).description().components(separatedBy: ".").last!
         let nib = UINib(nibName: nibName, bundle: bundle)
@@ -18,13 +18,13 @@ public extension UIView {
     }
 
     /** Loads instance from nib with the nibName. */
-    public  func st_loadNib(nibName:String) -> UIView {
+      func st_loadNib(nibName:String) -> UIView {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
     
-   public func findViewController() -> UIViewController? {
+    func findViewController() -> UIViewController? {
         if let nextResponder = self.next as? UIViewController {
             return nextResponder
         } else if let nextResponder = self.next as? UIView {
